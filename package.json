@@ -1,0 +1,32 @@
+{
+  "name": "tmi-cli",
+  "version": "1.0.0",
+  "description": "CLI tool to generate React Native projects from TMI boilerplate",
+  "author": "TMI",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tmi-dev/tmi-cli.git"
+  },
+  "keywords": [
+    "react-native",
+    "boilerplate",
+    "cli",
+    "generator",
+    "typescript",
+    "nativewind"
+  ],
+  "bin": {
+    "tmi": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "commands"
+  ],
+  "dependencies": {
+    "chalk": "4.1.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
